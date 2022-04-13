@@ -97,9 +97,14 @@ h5 {
 ================================================== */
 
 .text-dark {
-  text-shadow: rgb(187, 187, 187) 2px 2px 4px;
+  
   font-family: 'Nunito Sans';
   font-weight: 800;
+  letter-spacing: 1px !important;
+  color: #4d4d4d !important;
+  background: #e4c3c79b;
+  padding: 35px;
+  border-radius: 12px;
   
 }
 
@@ -240,6 +245,7 @@ a:focus {
 .bg-overlay .container {
   position: relative;
   z-index: 1;
+  
 }
 
 .bg-overlay:after {
@@ -716,6 +722,7 @@ ul.top-info li p.info-text {
 .site-navigation {
   background: #4d4d4d;
   
+  
  
 }
 
@@ -994,6 +1001,7 @@ ul.navbar-nav > li > a i {
 }
 
 @media (max-width: 991px) {
+  
   ul.navbar-nav > li > a i {
     float: right;
     background: #222;
@@ -1072,11 +1080,21 @@ ul.navbar-nav > li > a {
   margin: 0;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 }
+@media (min-width: 768px) and (max-width: 991px) {
+ .top-info-box {
+   border: 1px solid red;
+   position: relative;
+   right: 15%;
+ }
+}
+
 
 @media (max-width: 991px) {
   .dropdown-menu {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
   }
+
+  
 }
 
 .dropdown-menu-large {
@@ -1134,6 +1152,8 @@ ul.navbar-nav > li > a {
   ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;
   }
+
+  
 }
 
 @media (min-width: 991px) {
@@ -1160,7 +1180,9 @@ ul.navbar-nav > li > a {
 .search-area {
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  
+  
 }
 
 .search-area {
@@ -1184,7 +1206,7 @@ ul.navbar-nav > li > a {
   .site-navigation .container,
 .search-area {
   position: relative;
-  border: 1px solid red;
+  
  
  
  
@@ -3236,6 +3258,11 @@ label {
   border-radius: 0 !important;
   margin-right: 8px;
   color: #7c7c7c;
+}
+
+.right {
+  position: relative;
+  left: 10px;
 }
 
 .pagination > .active > a,
