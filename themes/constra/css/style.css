@@ -27,6 +27,13 @@ Description: Constra - Construction Html5 Template
   width: 100%;
 }
 
+.evChargeDiv {
+  padding: 6%;
+  border-radius: 8px;
+  background-color: rgba(128, 128, 128, 0.069);
+}
+
+
 
 
 
