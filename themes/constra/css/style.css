@@ -25,6 +25,7 @@ Description: Constra - Construction Html5 Template
 
 .evCharge {
   width: 100%;
+  object-fit: cover;
 }
 
 .evChargeDiv {
