@@ -19,7 +19,7 @@ Description: Constra - Construction Html5 Template
 }
 
 .fa-angle-down {
-  color: white;
+  color: rgba(255, 255, 255, 0.467);
   background: #4d4d4d !important;
 }
 
@@ -735,23 +735,41 @@ ul.top-info li p.info-text {
 .site-navigation {
   background: #4d4d4d;
   
-  
- 
 }
 
-.header-one .navbar-collapse {
+
+
+.header-one .navbar-collapse ul li{
   padding-left: 0;
+  text-align: center;
+  
+  
+  ;
 }
 
 @media (max-width: 991px) {
   .navbar-collapse.collapse {
     overflow-y: auto;
+    text-align: center;
+    
   }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+
+ 
+
+
+
+  
 }
 
 .header-one ul.navbar-nav > li {
   padding-left: 0;
   padding-right: 100px;
+  
   
   
 }
@@ -933,12 +951,7 @@ ul.top-info-box > li.nav-search i {
 }
 
 /* Main navigation */
-.navbar-toggler {
-  float: left;
-  margin-top: 10px;
-  padding: 12px;
-  
-}
+
 
 .navbar {
   border-radius: 0;
@@ -952,16 +965,29 @@ ul.top-info-box > li.nav-search i {
   border-radius: 0;
   font-size: 1rem;
   background:#4d4d4d;
+  display: flex;
+  border: 2px solid red;
+ 
+  
+  
+  
   
 }
 
+
+
 .navbar-toggler:focus {
   outline: 0;
+  position: relative;
 }
 
 .navbar-dark .navbar-toggler-icon,
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  
+ 
+  
+  
 }
 
 ul.navbar-nav > li:hover > a,
@@ -972,7 +998,7 @@ ul.navbar-nav > li.active > a {
 
 ul.navbar-nav > li {
   padding: 0 13px;
-  position: relative;
+  
 }
 
 @media (max-width: 1200px) {
@@ -1011,6 +1037,7 @@ ul.navbar-nav > li > a:focus {
 
 ul.navbar-nav > li > a i {
   font-weight: 700;
+  
 }
 
 @media (max-width: 991px) {
@@ -1020,6 +1047,7 @@ ul.navbar-nav > li > a i {
     background: #222;
     padding: 6px 10px;
     margin-top: 7px;
+    
   }
   .header-two ul.navbar-nav > li > a i {
     color: #fff;
@@ -1095,7 +1123,7 @@ ul.navbar-nav > li > a {
 }
 @media (min-width: 768px) and (max-width: 991px) {
  .top-info-box {
-   border: 1px solid red;
+   
    position: relative;
    right: 15%;
  }
@@ -1105,6 +1133,7 @@ ul.navbar-nav > li > a {
 @media (max-width: 991px) {
   .dropdown-menu {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    
   }
 
   
@@ -1164,6 +1193,7 @@ ul.navbar-nav > li > a {
 @media (min-width: 991px) {
   ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;
+  
   }
 
   
