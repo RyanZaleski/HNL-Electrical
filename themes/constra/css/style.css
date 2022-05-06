@@ -2765,6 +2765,14 @@ img.testimonial-thumb {
   
 }
 
+.ledImagesSmall {
+  width: 50%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+
 
 #back-to-top {
   right: 40px;
