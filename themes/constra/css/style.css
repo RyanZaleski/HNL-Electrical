@@ -2765,8 +2765,8 @@ img.testimonial-thumb {
   
 }
 
-.ledImagesSmall {
-  width: 50%;
+.ledImagesSmaller {
+  width: 75%;
   height: auto;
   border-radius: 6px;
   margin-bottom: 30px;
