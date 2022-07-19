@@ -56,7 +56,18 @@ Description: Constra - Construction Html5 Template
 @media (max-width: 773px) {
 
 .hidden {
-  display: none;
+  display: none !important;
+}
+
+.mobileWrapper {
+  border: 1px solid red;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 100px !important;
+}
+
+.text-center-mobile {
+  text-align: center;
 }
 
 
@@ -1943,8 +1954,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .ts-service-box .ts-service-box-info {
-  margin-left: 25px;
-  margin-bottom: 40px;
+ margin-bottom: 40px;
 }
 
 .service-box-title {
@@ -2441,6 +2451,17 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   background: #c4c4ca !important;
 }
 
+
+.managementOffice {
+  background: rgb(77, 115, 227);
+  padding: 10px;
+}
+
+
+.hpii {
+  width: 100%;
+  background: white;
+}
 
 
 /* Testimonial
