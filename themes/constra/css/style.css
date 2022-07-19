@@ -13,9 +13,27 @@ Description: Constra - Construction Html5 Template
   font-size: 3.5em;
   padding: 0;
   width: 50px;
-  
-
   color: rgba(255, 0, 255, 0.157);
+}
+
+
+.findOutMore {
+  border: 1px solid #e4c3c7 !important;
+  background: #e4c3c7;
+  color: #4d4d4d;
+}
+
+.pink {
+  color: #e4c3c7 !important;
+}
+.sendMessage {
+  background: #e4c3c7 !important;
+  color: #4d4d4d !important;
+}
+
+.requestQuote {
+  background: #4d4d4d !important;
+  color: white !important;
 }
 
 .fa-angle-down {
@@ -75,8 +93,8 @@ Description: Constra - Construction Html5 Template
 /* Typography
 ================================================== */
 body {
-  background: #fff;
-  color: red;
+  background: #4d4d4d;
+  color: white;
 }
 
 body,
@@ -94,7 +112,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #212121;
+  color: white;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   text-rendering: optimizeLegibility;
@@ -144,7 +162,7 @@ h5 {
   font-family: 'Nunito Sans';
   font-weight: 800;
   letter-spacing: 1px !important;
-  color: #4 !important;
+  color: #4d4d4d !important;
   background-color: rgba(255, 255, 255, 0.116);
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
   padding: 35px;
@@ -364,7 +382,7 @@ a:focus {
   margin: 0;
   text-transform: uppercase;
   font-weight: 300;
-  color: red;
+  color: #e4c3c7;
 }
 
 .section-sub-title {
@@ -372,7 +390,7 @@ a:focus {
   font-size: 36px;
   line-height: 46px;
   margin: 0 0 60px;
-  color: red;
+  color: white;
 }
 
 @media (max-width: 575px) {
@@ -384,7 +402,7 @@ a:focus {
 /* Column title */
 .column-title {
   margin: 0 0 40px;
-  color: red;
+  color: white;
 }
 
 .column-title-small {
@@ -418,13 +436,13 @@ a:focus {
 /* Input form */
 .form-control {
   box-shadow: none;
-  border: 1px solid #dadada;
+  
   padding: 5px 20px;
   height: 44px;
-  background: none;
+  background: white;
   color: #959595;
   font-size: 14px;
-  border-radius: 0;
+  border-radius: 6px;
 }
 
 .form-control:focus {
@@ -527,7 +545,7 @@ cite {
   font-family: "Font Awesome 5 Free";
   content: "\f138";
   margin-right: 10px;
-  color: red;
+  color: white;
   font-size: 12px;
 }
 
@@ -602,7 +620,7 @@ a[href^=tel] {
 
 .btn-white.btn-primary {
   background: #fff;
-  color: red;
+  color: white;
 }
 
 .btn-primary {
@@ -951,6 +969,7 @@ ul.top-info-box li .info-box .info-box-content {
   display: inline-block;
   font-family: "Montserrat", sans-serif;
   flex-direction: column;
+  
 }
 
 ul.top-info-box li .info-box .info-box-title {
@@ -1548,7 +1567,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .slider.border {
   background: none;
   border: 2px solid #4d4d4d !important;
-  color: red !important;
+  color: white !important;
 }
 
 .slider.border:hover {
@@ -1736,12 +1755,14 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .call-to-action-box .action-style-box {
-  background: #4d4d4d;
+  background: #e4c3c7;
   padding: 30px;
+  color: #4d4d4d !important;
+  border-radius: 12px;
 }
 
 .action-title {
-  color: #fff;
+  color: #4d4d4d;
   margin: 0;
   line-height: 36px;
   font-size: 18px;
@@ -1769,7 +1790,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   font-size: 32px;
   line-height: normal;
   margin: 10px 0;
-  color: red;
+  color: white;
 }
 
 /*-- Featured Tab --*/
@@ -1899,7 +1920,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .ts-service-box .ts-service-icon i {
   font-size: 36px;
   float: left;
-  color: red;
+  color: #e4c3c7 !important;
 }
 
 .ts-service-box .ts-service-box-content {
@@ -1917,6 +1938,10 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   line-height: 28px;
 }
 
+.ts-service-box-content h4 {
+  color: #4d4d4d !important;
+}
+
 .ts-service-box .ts-service-box-info {
   margin-left: 25px;
   margin-bottom: 40px;
@@ -1925,11 +1950,11 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .service-box-title {
   font-size: 16px;
   margin: 0 0 10px;
-  color: red;
+  color: white;
 }
 
 .service-box-title a {
-  color: red;
+  color: white;
 }
 
 .service-box-title a:hover {
@@ -1938,9 +1963,10 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 /* Service box bg */
 .ts-service-box-bg {
-  background: #252525;
-  color: #fff;
+  background: #e4c3c7;
+  color: #4d4d4d !important;
   padding: 30px;
+  border-radius: 12px;
 }
 
 .ts-service-box-bg h4,
@@ -2001,8 +2027,8 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 /* Icon squre */
 .ts-service-icon.icon-round i {
   font-size: 24px;
-  color: #fff;
-  background: #e4c3c7;
+  color: #e4c3c7;
+  background: #4d4d4d;
   text-align: center;
   border-radius: 100%;
   width: 60px;
@@ -2012,6 +2038,8 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   position: relative;
   float: none;
 }
+
+
 
 /* Icon left */
 .ts-service-box.icon-left .ts-service-box-icon {
@@ -2338,7 +2366,9 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .accordion-group .card {
   border-radius: 0;
   margin-bottom: 10px;
-  border-bottom: 1px solid #dfdfdf !important;
+  border-bottom: 1px solid white !important;
+  background: #4d4d4d;
+  border: 1px solid white;
 }
 
 .accordion-group .card-body {
@@ -2356,7 +2386,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   font-weight: 700;
   padding: 13px 15px;
   padding-bottom: 10px;
-  color: red;
+  color: white;
 }
 
 .accordion-group .card-header .btn:before {
@@ -2372,13 +2402,13 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   content: "\f107";
   font-weight: 700;
   background-color: #333;
-  color: #fff;
   transition: .3s;
-  color: red;
+  color: white;
 }
 
 .accordion-group .card-header .btn[aria-expanded="true"] {
-  color: red;
+  color: white;
+  border-bottom: 1px solid white;
 }
 
 .accordion-group .card-header .btn[aria-expanded="true"]::before {
@@ -2392,10 +2422,10 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 /* Clients */
 .clients-logo {
-  margin: 0 0 30px;
+  
   border: 1px solid #dadada;
   min-height: 105px;
-  padding: 0 30px;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2403,12 +2433,15 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   align-content: center;
 }
 
-.clients-logo img {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-  -webkit-filter: gray;
-          filter: gray;
+.raineAndCo {
+  background: black !important;
 }
+
+.stevenOates {
+  background: #c4c4ca !important;
+}
+
+
 
 /* Testimonial
 ================================================== */
@@ -2431,7 +2464,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   margin: 0 0 10px;
   display: inline-block;
   padding: 0 40px 30px 60px;
-  background-color: #fff;
+  background-color: #4d4d4d;
   position: relative;
   font-size: 16px;
   font-style: italic;
@@ -2799,7 +2832,7 @@ img.testimonial-thumb {
 }
 
 .ledImagesSmaller {
-  width: 50%;
+  width: 75%;
   height: auto;
   border-radius: 6px;
   margin-bottom: 30px;
