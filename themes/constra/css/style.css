@@ -9,6 +9,49 @@ Description: Constra - Construction Html5 Template
 -------------------------------------------------------------------*/
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,600i,700,700i,800|Open+Sans:400,400i,600,600i,700,700i,800&display=swap);
 
+
+/* ANIMATIONS */
+html {
+  scroll-behavior: smooth;
+}
+
+
+.from-left{
+  transform: translateX(-60%);
+  z-index: 0;
+}
+
+.from-right{
+  transform: translateX(60%);
+  z-index: 0;
+}
+
+.from-left,
+.from-right {
+  transition: opacity 800ms ease-in,
+              transform 800ms ease-in;
+  opacity: 0;
+  z-index: 0;
+}
+
+.from-left.appear,
+.from-right.appear {
+  transform: translateX(0);
+  opacity: 1;
+  z-index: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .fa-solid {
   font-size: 3.5em;
   padding: 0;
@@ -59,12 +102,12 @@ Description: Constra - Construction Html5 Template
   display: none !important;
 }
 
-.mobileWrapper {
-  border: 1px solid red;
-  display: flex !important;
-  flex-direction: column !important;
-  gap: 100px !important;
+.extraMargin {
+  display: flex;
+  gap: 30px;
 }
+
+
 
 .text-center-mobile {
   text-align: center;
@@ -106,6 +149,7 @@ Description: Constra - Construction Html5 Template
 body {
   background: #4d4d4d;
   color: white;
+  overflow-x: hidden;
 }
 
 body,
@@ -1976,8 +2020,12 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   background: #e4c3c7;
   color: #4d4d4d !important;
   padding: 30px;
-  border-radius: 12px;
+  border-radius: 6px;
+  
+  
 }
+
+
 
 .ts-service-box-bg h4,
 .ts-service-box-bg h3 {
