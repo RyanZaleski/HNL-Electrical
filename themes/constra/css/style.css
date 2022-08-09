@@ -10,6 +10,8 @@ Description: Constra - Construction Html5 Template
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,600i,700,700i,800|Open+Sans:400,400i,600,600i,700,700i,800&display=swap);
 
 
+
+
 /* ANIMATIONS */
 html {
   scroll-behavior: smooth;
@@ -154,7 +156,7 @@ body {
 
 body,
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased !important;
   line-height: 26px;
@@ -2594,11 +2596,11 @@ img.testimonial-thumb {
 
 /* Testimonial Border */
 .quote-item.quote-border .quote-text-border {
-  border: 1px solid #e4c3c7;
+  border: 2px solid #e4c3c7;
   padding: 20px;
   position: relative;
   line-height: 28px;
-  color: #666;
+  color: white;
   font-size: 18px;
   text-align: center;
 }
@@ -2635,7 +2637,7 @@ img.testimonial-thumb {
 .quote-item.quote-border .quote-item-footer {
   margin-left: 0;
   text-align: center;
-  margin-top: 35px;
+  margin-top: 20px;
 }
 
 .quote-item.quote-border .quote-item-footer img.testimonial-thumb {
