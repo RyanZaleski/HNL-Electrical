@@ -2482,15 +2482,14 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 /* Clients */
 .clients-logo {
-  
   border: 1px solid #dadada;
   min-height: 105px;
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
+  
 }
 
 .raineAndCo {
@@ -2510,7 +2509,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 .hpii {
   width: 100%;
-  background: white;
+  
 }
 
 
