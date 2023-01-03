@@ -133,7 +133,10 @@ html {
   padding-top: 20px;
   gap: 10px;
  
+  
 }
+
+
 
 
 
@@ -2897,7 +2900,15 @@ img.testimonial-thumb {
 
 
 .ledImage {
-  border-radius: 6px;
+  border-radius: 12px;
+  
+  
+}
+
+.wardrobe {
+  border: 2px solid red;
+  aspect-ratio: auto;
+  object-fit: contain;
   
 }
 
@@ -3034,7 +3045,7 @@ img.testimonial-thumb {
   position: absolute;
   top: 50%;
   z-index: 5;
-  display: inline-block;
+  display: block;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   background-color: transparent;
@@ -3050,7 +3061,7 @@ img.testimonial-thumb {
 }
 
 .page-slider .carousel-control.right {
-  right: 0;
+  left: calc(100% - 40px);
 }
 
 .page-slider .carousel-control i {
