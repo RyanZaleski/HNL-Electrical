@@ -1085,14 +1085,15 @@ ul.top-info-box > li.nav-search i {
 }
 
 .navbar-toggler {
-  margin: 10px 0;
-  padding: 6px;
+ 
   border-radius: 0;
-  font-size: 1rem;
-  background:#4d4d4d;
+  font-size: 1.1rem;
+  background: none;
   display: flex;
   position: relative;
-  border: 1px solid #4d4d4d !important;
+  left: 30px;
+  border: none;
+  
  
   
   
@@ -2688,6 +2689,12 @@ img.testimonial-thumb {
   .subscribe-call-to-acton h4 {
     font-size: 20px;
   }
+
+  .hnlLogo {
+    width: 130% !important;
+    height: auto !important;
+  }
+  
 }
 
 /* Newsletter */
